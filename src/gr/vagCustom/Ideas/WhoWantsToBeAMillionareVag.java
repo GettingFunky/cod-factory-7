@@ -184,6 +184,24 @@ public class WhoWantsToBeAMillionareVag {
         System.exit(0);
     }
 
+    public static int[] fiftyFifty(int correctAnswer) {
+        int[] arr = new int[2];
+        arr[0] = correctAnswer;
+        do {
+            int rand = (int) ((Math.random() * 4) + 1);
+            arr[1] = rand;
+        }  while (arr[1] == correctAnswer) ;
+
+        if (Math.random() < 0.5) { // 50% πιθανότητα
+            int temp = arr[0];
+            arr[0] = arr[1];
+            arr[1] = temp;
+        }
+
+        return arr;
+
+    }
+
     public static int question1(Scanner sc) {
         System.out.println("Πρώτη Ερώτηση για τα 100 ευρώ..");
         timeDelay(500);
@@ -192,6 +210,13 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("2. Αλεύρι");
         System.out.println("3. Νερό");
         System.out.println("4. Λάδι");
+        System.out.println();
+        System.out.println("Για βοήθεια 50/50 πατήστε το 9");
+        if (sc.nextInt() == 9) {
+            int[] options = fiftyFifty(2);
+            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+        }
+
         return sc.nextInt();
     }
 
@@ -203,6 +228,12 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("2. Τίγρης");
         System.out.println("3. Ελέφαντας");
         System.out.println("4. Λεοπάρδαλη");
+        System.out.println();
+        System.out.println("Για βοήθεια 50/50 πατήστε το 9");
+        if (sc.nextInt() == 9) {
+            int[] options = fiftyFifty(1);
+            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+        }
         return sc.nextInt();
     }
 
@@ -214,6 +245,12 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("2. 8");
         System.out.println("3. 10");
         System.out.println("4. 12");
+        System.out.println();
+        System.out.println("Για βοήθεια 50/50 πατήστε το 9");
+        if (sc.nextInt() == 9) {
+            int[] options = fiftyFifty(2);
+            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+        }
         return sc.nextInt();
     }
 
@@ -225,6 +262,12 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("2. Ηνωμένες Πολιτείες");
         System.out.println("3. Ρωσία");
         System.out.println("4. Κίνα");
+        System.out.println();
+        System.out.println("Για βοήθεια 50/50 πατήστε το 9");
+        if (sc.nextInt() == 9) {
+            int[] options = fiftyFifty(3);
+            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+        }
         return sc.nextInt();
     }
 
@@ -236,6 +279,12 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("2. Οξυγόνο");
         System.out.println("3. Υδρογόνο");
         System.out.println("4. Νάτριο");
+        System.out.println();
+        System.out.println("Για βοήθεια 50/50 πατήστε το 9");
+        if (sc.nextInt() == 9) {
+            int[] options = fiftyFifty(2);
+            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+        }
         return sc.nextInt();
     }
 
@@ -247,6 +296,12 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("2. 1989");
         System.out.println("3. 1991");
         System.out.println("4. 1993");
+        System.out.println();
+        System.out.println("Για βοήθεια 50/50 πατήστε το 9");
+        if (sc.nextInt() == 9) {
+            int[] options = fiftyFifty(2);
+            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+        }
         return sc.nextInt();
     }
 
@@ -258,6 +313,12 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("2. Όμηρος");
         System.out.println("3. Τολστόι");
         System.out.println("4. Κάφκα");
+        System.out.println();
+        System.out.println("Για βοήθεια 50/50 πατήστε το 9");
+        if (sc.nextInt() == 9) {
+            int[] options = fiftyFifty(1);
+            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+        }
         return sc.nextInt();
     }
 
@@ -269,6 +330,12 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("2. Αστάνα (Νουρσουλτάν)");
         System.out.println("3. Τασκένδη");
         System.out.println("4. Μπισκέκ");
+        System.out.println();
+        System.out.println("Για βοήθεια 50/50 πατήστε το 9");
+        if (sc.nextInt() == 9) {
+            int[] options = fiftyFifty(2);
+            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+        }
         return sc.nextInt();
     }
 
@@ -280,6 +347,12 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("2. Αλέξανδρος Παπαδιαμάντης");
         System.out.println("3. Νίκος Καζαντζάκης");
         System.out.println("4. Αντώνης Σαμαράκης");
+        System.out.println();
+        System.out.println("Για βοήθεια 50/50 πατήστε το 9");
+        if (sc.nextInt() == 9) {
+            int[] options = fiftyFifty(4);
+            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+        }
         return sc.nextInt();
     }
 
