@@ -1,3 +1,5 @@
+package gr.advent.challenges.Year2024;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.lang.Math;

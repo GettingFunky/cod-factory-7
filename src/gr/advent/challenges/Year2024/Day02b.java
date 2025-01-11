@@ -1,4 +1,4 @@
-package gr.advent.challenges;
+package gr.advent.challenges.Year2024;
 
 import java.io.File;
 import java.io.FileNotFoundException;

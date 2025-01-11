@@ -1,11 +1,10 @@
-package gr.advent.challenges;
+package gr.advent.challenges.Year2024;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Day02bGPT {
