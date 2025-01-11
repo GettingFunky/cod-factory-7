@@ -12,7 +12,7 @@ public class Day05 {
     public static void main(String[] args) throws IOException {
         try (Scanner in = new Scanner(new File("E:\\Programming\\Advent Of Code\\2015\\Day05\\input.txt"), StandardCharsets.UTF_8);
         ) {
-//            int vowelCounter = 0;
+            int vowelCounter = 0;
             char[] storeCharMap = new char[16];
             String[] storeStringMap = new String[16];
             boolean isConsecutive = false;
@@ -25,9 +25,9 @@ public class Day05 {
                 for (char c : line.toCharArray()) {
                     storeCharMap[index] = c;
                     storeStringMap[index] = String.valueOf(c);
-//                    if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
-//                        vowelCounter++;
-//                    }
+                    if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+                        vowelCounter++;
+                    }
 
                     index++;
                 }
