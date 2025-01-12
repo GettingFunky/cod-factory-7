@@ -1,5 +1,9 @@
 package gr.aueb.cf.ch13.bankAppVag.model;
 
+/**
+ * Represents a bank account with an overdraft feature, allowing
+ * withdrawals beyond the current balance up to a specified limit.
+ */
 public class OverdraftAccount {
     private int id;
     private String iban;
@@ -68,5 +72,21 @@ public class OverdraftAccount {
         this.balance = balance;
     }
 
-
+    /**
+     * Withdraws a specified amount from the account balance.
+     *
+     * @param amount the amount to withdraw
+     * @return a message indicating success or failure of the withdrawal
+     * @throws Exception if the amount is negative
+     */
+    public String Overdraft(double amount) throws Exception {
+        if (amount < 0) {
+            throw new Exception("The amount must not be negative.");
+        }
+        if (balance - amount < -1000) { // Υποθέτουμε όριο overdraft
+            return "Withdrawal denied. Exceeds overdraft limit.";
+        }
+        balance -= amount;
+        return "Amount " + amount + " successfully withdrawn. Remaining balance: " + balance;
+    }
 }
