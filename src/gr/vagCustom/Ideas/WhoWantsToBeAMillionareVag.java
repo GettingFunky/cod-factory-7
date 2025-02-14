@@ -214,7 +214,7 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("Για βοήθεια 50/50 πατήστε το 9");
         if (sc.nextInt() == 9) {
             int[] options = fiftyFifty(2);
-            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+            System.out.println("Πλέον η σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
         }
 
         return sc.nextInt();
@@ -232,7 +232,7 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("Για βοήθεια 50/50 πατήστε το 9");
         if (sc.nextInt() == 9) {
             int[] options = fiftyFifty(1);
-            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+            System.out.println("Πλέον η σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
         }
         return sc.nextInt();
     }
@@ -249,7 +249,7 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("Για βοήθεια 50/50 πατήστε το 9");
         if (sc.nextInt() == 9) {
             int[] options = fiftyFifty(2);
-            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+            System.out.println("Πλέον η σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
         }
         return sc.nextInt();
     }
@@ -266,7 +266,7 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("Για βοήθεια 50/50 πατήστε το 9");
         if (sc.nextInt() == 9) {
             int[] options = fiftyFifty(3);
-            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+            System.out.println("Πλέον η σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
         }
         return sc.nextInt();
     }
@@ -283,7 +283,7 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("Για βοήθεια 50/50 πατήστε το 9");
         if (sc.nextInt() == 9) {
             int[] options = fiftyFifty(2);
-            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+            System.out.println("Πλέον η σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
         }
         return sc.nextInt();
     }
@@ -300,7 +300,7 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("Για βοήθεια 50/50 πατήστε το 9");
         if (sc.nextInt() == 9) {
             int[] options = fiftyFifty(2);
-            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+            System.out.println("Πλέον η σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
         }
         return sc.nextInt();
     }
@@ -317,7 +317,7 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("Για βοήθεια 50/50 πατήστε το 9");
         if (sc.nextInt() == 9) {
             int[] options = fiftyFifty(1);
-            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+            System.out.println("Πλέον η σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
         }
         return sc.nextInt();
     }
@@ -334,7 +334,7 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("Για βοήθεια 50/50 πατήστε το 9");
         if (sc.nextInt() == 9) {
             int[] options = fiftyFifty(2);
-            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+            System.out.println("Πλέον η σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
         }
         return sc.nextInt();
     }
@@ -351,7 +351,7 @@ public class WhoWantsToBeAMillionareVag {
         System.out.println("Για βοήθεια 50/50 πατήστε το 9");
         if (sc.nextInt() == 9) {
             int[] options = fiftyFifty(4);
-            System.out.println("Πλέον οι σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
+            System.out.println("Πλέον η σωστή απάντηση μπορεί να είναι είτε η " + options[0] + " είτε η " + options[1]);
         }
         return sc.nextInt();
     }
